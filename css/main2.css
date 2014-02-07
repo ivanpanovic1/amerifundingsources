@@ -1,0 +1,776 @@
+﻿body, h1, h2, h3, h4, h5, h6, .top-bar-section ul li > a {
+    /*font-family: 'Metrophobic', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .panel h1, panel a, a
+{
+	/*color: #AB0534;*/
+    color: #959ED1
+}
+h1
+{
+	line-height: 40px;
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+    h1 a:hover
+    {
+        text-decoration: none;
+        color: #959ED1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+      -moz-opacity: 0.5;
+      -khtml-opacity: 0.5;
+      opacity: 0.5;
+    }
+h3
+{
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+    a:hover, panel a:hover
+    {
+		text-decoration: underline;
+    }
+p.subscript
+{
+    font-size: 13px;
+    line-height: 16px;
+}
+blockquote
+{
+	border-left: 0;
+	border-top: 1px dashed #7C7B7B;
+	border-bottom: 1px dashed #7C7B7B;
+	margin-top: 50px;
+    text-align: center;
+}
+.close-reveal-modal:hover
+{
+    text-decoration: none;
+}
+    blockquote h4
+    {
+		
+		padding-left: 40px;
+        padding-right: 40px;
+		color: #7C7B7B;
+		font-family: 'Bad Script', cursive;
+		font-weight: bold;
+        position: relative;
+        display: inline-block;
+        *zoom: 1;
+        *display: inline;
+    }
+        blockquote h4:before
+        {
+            content: "";
+            background: url("../img/quote.png") no-repeat left center transparent;
+            width: 20px;
+            height: 14px;
+            position: absolute; 
+            left: 0; 
+            top: 5px;
+        }
+        blockquote h4:after
+        {
+            content: "";
+            background: url("../img/quote.png") no-repeat right center transparent;
+            width: 20px;
+            height: 14px;
+            position: absolute; 
+            right: 0; 
+            top: 5px;
+        }
+.row-extended
+{
+    max-width: 75rem;
+}
+/* ======================= HEADER ======================= */
+header
+{
+	padding-bottom: 10px;	
+}
+    header .large-3 a
+    {
+        display: block;
+        margin: 10px 0 15px;
+    }
+.header-phone
+{
+	text-align: right;
+	padding-top: 33px;
+}
+.header-phone-no
+{
+	margin-top: 10px;
+	/*color: #AB0534;*/
+    color: #959ED1;
+	font-weight: bold;
+}
+.logo-container
+{
+	background-color: #AB0534;
+	padding: 7px;
+	margin-top: 10px;
+}
+    .logo-container a.logo
+    {
+		color: #fff;
+		border: 3px solid #fff;
+		display: block;
+		text-align: center;
+		padding: 20px 10px;
+
+		/*-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; */
+    }
+        .logo-container a.logo:hover
+        {
+			text-decoration: none;
+        }
+        .logo-container a.logo > span
+        {
+			font-weight: bold;
+			font-size: 18px;
+        }
+        .logo-container a.logo .sub-logo
+        {
+			display: block;
+			font-size: 12px;
+			margin-top: 10px;
+        }
+.main-menu
+{
+	background: url('../img/main_nav_bg.png') repeat-x top left transparent;
+	margin-bottom: 20px;
+	/*border-top: 7px solid #AB0534;*/
+    border-top: 7px solid #959ED1;
+
+	-moz-box-shadow:    0 4px 9px #5B5B56;
+	-webkit-box-shadow: 0 4px 9px #5B5B56;
+	box-shadow:         0 4px 9px #5B5B56;	
+}
+.funding-menu
+{
+    margin-top: -20px;
+    background-color: #f2f2f2;
+
+    -moz-box-shadow:    0 5px 6px #D4D4CF;
+	-webkit-box-shadow: 0 5px 6px #D4D4CF;
+	box-shadow:         0 5px 6px #D4D4CF;	
+}
+    .funding-menu ul
+    {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .funding-menu ul li
+    {
+        list-style-type: none;
+        float: left;
+        margin-left: 15px;
+    }
+        .funding-menu ul li:first-child
+        {
+            margin-left: 0;
+        }
+        .funding-menu ul li a
+        {
+            display: block;
+            padding: 10px 5px;
+        }
+        .funding-menu ul li.active a
+        {
+            /*font-weight: bold;*/
+            /*text-shadow: 0px 3px 4px #616161;
+            outline: 7px solid #959ED1;*/
+            text-decoration: underline;
+        }
+.top-bar
+{
+	background: none;
+}
+
+.top-bar-section .has-dropdown > a:after
+{
+	/*border-color: #AB0534 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);*/
+    border-color: #959ED1 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.green-panel
+{    
+    -moz-box-shadow:    0 4px 9px #5B5B56;
+	-webkit-box-shadow: 0 4px 9px #5B5B56;
+	box-shadow:         0 4px 9px #5B5B56;	
+}
+    .green-panel h4
+    {
+        color: #3F9C2D;
+    }
+.sub-panel
+{
+    margin-top: 30px;
+    border-top: 7px solid #959ED1;
+    padding-top: 15px;
+}
+.panel
+{
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+    .panel ul
+    {
+		color: #687DC1;
+		list-style: none;
+    }
+        .panel ul li
+        {
+			color: #333;
+			line-height: 22px;
+        }
+		.panel ul li:before {
+			content: "• ";
+			color: #687DC1; 
+			margin-left: -10px;
+			font-size: 22px;
+		}
+
+/* ================== LARGE SLIDER ===================== */
+.example-orbit li
+{
+	text-align: center;
+}
+    .example-orbit.orbit-slides-container li img
+    {
+		display: inline-block;
+		*zoom: 1;
+		*display: inline;
+    }
+/* ================== FAQ PAGE ===================== */
+.accordion dd
+{
+	border-bottom: 1px solid #EFEFEF;	
+}
+.accordion dd > a
+{
+	background: #F9F9F9;
+	font-weight: bold;
+    position: relative;
+    padding-right: 50px;
+}
+    .accordion dd > a.open:after
+    {
+        background-position: bottom left;        
+    }
+    .accordion dd > a:after
+    {
+        content: "";
+        position: absolute;
+        top: 14px;
+        right: 20px;
+        background: url(../img/collapse-expand.png) no-repeat top left transparent;
+        height: 30px; 
+        width: 30px;
+    }
+    .accordion dd > a:hover
+    {
+		text-decoration: none;
+		background: #e2e2e2 !important;
+    }
+.accordion dd:nth-child(2n+1) > a
+{
+	background: #EFEFEF;
+}
+    .accordion dd div.active
+    {
+		border-left: 1px solid #F9F9F9;	
+		border-right: 1px solid #F9F9F9;
+		font-style: italic;	
+		/*color: #AB0534;*/
+        color: #6874B7;
+    }
+/* ================== ABOUT PAGES ===================== */
+.intro-text
+{
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+ul li strong
+{
+	/*color: #AB0534;*/
+    color: #6874B7;
+}
+/* ================== funding request form ===================== */
+.funding-request-form
+{
+    padding-top: 15px;
+    border: 1px solid #D9D9D9;
+    -webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	-webkit-background-clip: padding-box; 
+	-moz-background-clip:    padding; 
+	background-clip:         padding-box;
+}
+.funding-request-form .text-input label
+{    
+    display: block;
+    font-size: 13px;
+}
+.funding-request-form .text-input input[type="text"]
+{
+    display: block;
+}
+.funding-request-form .radio-input .caption
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.funding-request-form .radio-input label
+{
+    font-size: 13px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*width: 175px;*/
+}
+.funding-request-form .radio-input .radio-group
+{
+    padding-left: 30px;
+    padding-right: 0;
+}
+/* ================== CONTACT PAGE ===================== */
+.map-wrap
+{
+	position: relative;
+}
+    .map-wrap iframe
+    {
+		max-width: 100%;
+		position: relative;
+		z-index: 1;
+    }
+    .map-wrap .contact-info
+    {	
+		width: 40%;
+		background: #f9f9f9;
+		padding: 20px 15px 10px;
+		margin-bottom: 30px;
+
+		-webkit-border-radius: 10px; 
+		-moz-border-radius: 10px; 
+		border-radius: 10px; 
+    }
+        .map-wrap .contact-info p
+        {
+			margin-bottom: 10px;
+        }
+
+.pre-footer-container
+{
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    padding: 30px 0;
+}
+    .pre-footer-container h5
+    {
+        margin-bottom: 20px;
+    }
+    .pre-footer-container .logo
+    {
+        margin-bottom: 10px;
+        display: block;
+    }
+    .pre-footer-container .logo img
+    {
+        max-width: 200px;
+    }
+
+footer
+{
+	background: url('../img/main_nav_bg.png') repeat-x top left transparent;
+	padding: 15px 0;
+	color: #fff;		
+    border-bottom: 7px solid #959ED1;
+}
+    footer div span
+    {
+		display: block;
+		margin-top: 5px;
+    }
+    footer ul
+    {
+		float: right;
+		margin: 0;
+    }
+    footer ul li
+    {
+		float: left;
+		list-style-type: none;
+		margin-left: 10px;
+    }
+        footer ul li a
+        {
+			color: #fff;
+        }
+            footer ul li a:hover
+            {
+                color: #fff;
+            }
+
+.orbit-timer
+{
+    display: none !important;
+}
+.orbit-container .orbit-next > span
+{
+     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #959ED1;
+}
+.orbit-container .orbit-next:hover > span
+{
+    border-left-color: #959ED1;
+}
+.orbit-container .orbit-prev > span
+{
+    border-color: rgba(0, 0, 0, 0) #959ED1 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);    
+}
+.orbit-container .orbit-prev:hover > span
+{
+    border-right-color: #959ED1;
+}
+.orbit-container .orbit-slide-number
+{
+    display: none;
+    color: #AB0534;
+}
+.green
+{
+    color: #3F9C2D;
+}
+.red, .warning
+{
+    color: #B91806;
+}
+#form-output, #borrowers-info-form-output, #funding-request-form2-output, #funding-request-form-output, #loan-form-output, #quotes-form-output, #borr-form-output
+{
+    display: none;
+}
+#quotes-form-output
+{
+    text-align: center;
+}
+    #form-output.success, #borrowers-info-form-output.success, #funding-request-form2-output.success, #funding-request-form-output.success, #loan-form-output.success, #quotes-form-output.success, #borr-form-output.success
+    {
+        display: block;
+        color: #3F9C2D;
+    }
+    #form-output.fail, #borrowers-info-form-output.fail, #funding-request-form2-output.fail, #funding-request-form-output.fail, #loan-form-output.fail, #quotes-form-output.fail, #borr-form-output.fail
+    {
+        display: block;
+        color: #F76969;
+    }
+.higlight-section h1
+{
+    font-size: 34px;
+}
+.sub-panel .green
+{
+    font-weight: bold; 
+    font-size: 18px;
+}
+/* ================== TESTIMONIAL PAGE ===================== */
+.testimonial
+{
+    /*border-bottom: 1px dashed #7C7B7B;*/
+    border-top: 1px dashed #7C7B7B;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.testimonial blockquote
+{
+    border: 0;
+    margin: 0;
+}
+.blue
+{
+    color: #406ab0;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.sidebar .panel.green-panel
+{
+    width: 100%;
+    padding: 15px;
+}
+    .sidebar .panel.green-panel input
+    {
+        margin-bottom: 5px;
+    }
+    .sidebar .panel.green-panel label
+    {
+        width: 75%;
+    }
+    .sidebar .panel.green-panel input[type="submit"]
+    {
+        margin-bottom: 0;
+    }
+    .sidebar .panel.green-panel .radio-caption
+    {
+        font-size: 14px;
+    }
+    .sidebar .panel.green-panel .btn-request-send
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+    }
+/* ================== LEFT MENU ===================== */
+.side-nav
+{
+    /*border: 1px solid #D9D9D9;*/
+    border-top: 7px solid #959ED1;
+    padding: 5px 0 5px;
+    background: #F2F2F2;
+    margin-top: 36px;
+    -webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+    .side-nav li
+    {
+        /*border-top: 1px solid #D9D9D9;*/
+        padding: 7px 10px 7px 15px;
+        border-top: 1px solid #d9d9d9;
+        margin-bottom: 0;
+    }
+        .side-nav li:first-child
+        {
+            border-top: 0;
+        }
+.side-nav li:hover
+{
+    background-color: #EDEDED;
+}
+.side-nav li.active > a:first-child
+{
+    color: #6874B7;
+    font-weight: bold;
+}
+.side-nav li a
+{
+    color: #959ED1;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+button, .button
+{
+    background-color: #959ED1;
+    text-decoration: none;
+}
+    button:hover, button:focus, .button:hover, .button:focus
+    {
+        background-color: #6874B7;
+        text-decoration: none;
+    }
+.inner-wrap nav.tab-bar
+    {
+        display: none;
+    }
+.left-off-canvas-menu
+{
+    display: none;
+}
+/* ================== FUNDING REQUEST PAGE ===================== */
+#loanform
+{
+    width: 50%;
+}
+.radio-wrap
+{
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+    .radio-wrap div.caption
+    {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+.radio-caption
+{
+    margin-bottom: 5px;
+}
+.funding-request-form .text-input .radio-wrap label
+{
+    display: inline;
+}
+.refinance-trans-wrap, .purchase-trans-wrap
+{
+    display: none;
+}
+a.toProcess
+{
+    margin-top: 30px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-bottom: 20px;
+}
+a.toProcess:hover
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+      -moz-opacity: 0.5;
+      -khtml-opacity: 0.5;
+      opacity: 0.5;
+}
+.reveal-legend-title
+{
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+.reveal-legend
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-top: 4px solid #959ED1;
+    padding-top: 8px;
+}
+.flex-direction-nav a
+{
+    height: 50px;
+}
+.orbit-bullets li
+{
+    float: none;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.header-image-container
+{
+    margin-top: 30px; overflow: hidden;
+    -moz-box-shadow:    0 1px 7px #A1A19C;
+	-webkit-box-shadow: 0 1px 7px #A1A19C;
+	box-shadow:         0 1px 7px #A1A19C;
+        ; 
+    /*-webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+    -webkit-background-clip: padding-box; 
+    -moz-background-clip:    padding; 
+    background-clip:         padding-box;*/
+}
+.flexslider
+{
+    margin-top: 30px;
+}
+.single-slide
+{
+    position: relative;
+}
+
+    .single-slide > span
+    {
+        font-size: 16px;
+        font-weight: bold;
+        color: #0079A1;
+    }
+.header-image-container
+{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .inner-wrap nav.tab-bar
+    {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .left-off-canvas-menu
+{
+    display: block;
+}
+    .left-off-canvas-menu devider, header, section.main-menu, .side-nav
+    {
+        display: none;
+    }
+    .left-off-canvas-menu ul li
+    {
+        list-style-type: none;
+    }
+        .left-off-canvas-menu ul li a
+        {
+            color: #fff;
+        }
+    .map-wrap .contact-info
+    {
+        width: 100%;
+    }
+    footer ul
+    {
+        display: none;
+    }
+    footer div span
+    {
+        font-size: 14px;
+    }
+    .radio-input .caption
+    {
+        margin-bottom: 10px;
+    }
+    .funding-menu
+    {
+        margin-top: -10px;
+    }
+    .funding-menu ul li
+    {
+        float: none;
+        margin-left: 0;
+    }
+        .funding-menu ul li a
+        {
+            padding: 5px 0;
+        }
+        #loanform
+        {
+            width: 100%;
+        }
+    .flex-direction-nav a
+    {
+        display: none;
+    }
+}
